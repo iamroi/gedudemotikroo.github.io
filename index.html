@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tikroo — Google Classroom add-on (developer environment)</title>
+	<meta name="description" content="Developer and testing environment for the Tikroo add-on for Google Classroom — live quizzes, polls and learning activities for classrooms.">
+	<style>
+		:root { color-scheme: light dark; }
+		* { box-sizing: border-box; }
+		body {
+			margin: 0; min-height: 100vh;
+			font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+			background: #0b0f1a; color: #e8ecf4;
+			display: flex; align-items: center; justify-content: center; padding: 2rem;
+			line-height: 1.6;
+		}
+		.card {
+			max-width: 640px; width: 100%;
+			background: #121828; border: 1px solid #26304a; border-radius: 20px;
+			padding: 3rem 2.5rem; text-align: center;
+		}
+		.logo { display: inline-flex; align-items: center; gap: .6rem; font-weight: 800; font-size: 1.6rem; letter-spacing: -.02em; }
+		.dot { width: 1.6rem; height: 1.6rem; border-radius: 50%; background: linear-gradient(135deg,#ff7a59,#ff4d6d); display:inline-block; }
+		h1 { font-size: 1.9rem; margin: 1.6rem 0 .5rem; letter-spacing: -.02em; }
+		p { color: #9fb0cc; margin: .5rem 0; }
+		.tag { display:inline-block; margin-top:1.4rem; padding:.4rem .9rem; border-radius:999px; background:#1c2740; color:#8fd0ff; font-size:.8rem; font-weight:600; }
+		.feats { display:flex; flex-wrap:wrap; gap:.6rem; justify-content:center; margin:1.8rem 0 .5rem; }
+		.feat { background:#0e1424; border:1px solid #26304a; border-radius:10px; padding:.55rem .9rem; font-size:.85rem; color:#c7d3e8; }
+		a.cta { display:inline-block; margin-top:1.8rem; padding:.75rem 1.5rem; border-radius:10px; background:#ff5a5f; color:#fff; text-decoration:none; font-weight:700; }
+		footer { margin-top:1.6rem; font-size:.75rem; color:#6b7a99; }
+		a { color:#8fd0ff; }
+	</style>
+</head>
+<body>
+	<main class="card">
+		<div class="logo"><span class="dot"></span> Tikroo</div>
+		<span class="tag">Developer &amp; testing environment</span>
+		<h1>Tikroo for Google Classroom</h1>
+		<p>Tikroo brings live quizzes, polls, and interactive learning activities into the classroom.
+		   This domain hosts the developer and testing environment for the <strong>Tikroo add-on for
+		   Google Classroom</strong>.</p>
+		<div class="feats">
+			<span class="feat">Quizzes &amp; polls</span>
+			<span class="feat">Self-paced assignments</span>
+			<span class="feat">Classroom grade sync</span>
+			<span class="feat">Roster-aware</span>
+		</div>
+		<p>Teachers attach a Tikroo activity to an assignment; students play inside Classroom and their
+		   scores return to the gradebook.</p>
+		<a class="cta" href="https://tikroo.com" rel="noopener">Visit tikroo.com</a>
+		<footer>This is a non-production demo domain used solely for building and testing the Tikroo
+		   Google Classroom integration.</footer>
+	</main>
+</body>
+</html>
